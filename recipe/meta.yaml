@@ -1,4 +1,4 @@
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/set6_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/set6/set6_{{ version }}.tar.gz
-  sha256: ce83ff53879bc6b843b32845f79fe8875268457b467f98544a2ab714182da59d
+  sha256: 342a7a27fe6a28d4f5fb85e3dd2be9606b699ff2894a575237d92b82713e0799
 
 build:
   merge_build_host: true  # [win]
