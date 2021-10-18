@@ -36,12 +36,14 @@ requirements:
     - r-r6
     - r-rcpp
     - r-checkmate
+    - r-ooplah
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
     - r-r6
     - r-rcpp
     - r-checkmate
+    - r-ooplah
 
 test:
   commands:
