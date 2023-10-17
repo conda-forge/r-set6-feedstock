@@ -3,22 +3,28 @@ About r-set6-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-set6-feedstock/blob/main/LICENSE.txt)
 
+
 About r-set6
 ------------
 
-Home: https://xoopR.github.io/set6/, https://github.com/xoopR/set6
+Home: https://xoopR.github.io/set6/
 
 Package license: MIT
 
 Summary: An object-oriented package for mathematical sets, upgrading the current gold-standard {sets}. Many forms of mathematical sets are implemented, including (countably finite) sets, tuples, intervals (countably infinite or uncountable), and fuzzy variants. Wrappers extend functionality by allowing symbolic representations of complex operations on sets, including unions, (cartesian) products, exponentiation, and differences (asymmetric and symmetric).
+
+Development: https://github.com/xoopR/set6
+
 About r-set6
 ------------
 
-Home: https://xoopR.github.io/set6/, https://github.com/xoopR/set6
+Home: https://xoopR.github.io/set6/
 
 Package license: MIT
 
 Summary: An object-oriented package for mathematical sets, upgrading the current gold-standard {sets}. Many forms of mathematical sets are implemented, including (countably finite) sets, tuples, intervals (countably infinite or uncountable), and fuzzy variants. Wrappers extend functionality by allowing symbolic representations of complex operations on sets, including unions, (cartesian) products, exponentiation, and differences (asymmetric and symmetric).
+
+Development: https://github.com/xoopR/set6
 
 Current build status
 ====================
