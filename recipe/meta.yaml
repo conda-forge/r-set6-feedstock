@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://raphaels1.r-universe.dev/src/contrib/set6_{{ version }}.tar.gz
-  md5: 2310d4d6607401b2d2c229dc6974fd5a
+  sha256: e15fa580a3eb2f8284de84fb46f1ffbaf35e61826fbde791ae1165161ca9428e
 
 build:
   number: 1
