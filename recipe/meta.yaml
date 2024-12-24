@@ -1,6 +1,5 @@
 {% set version = "0.2.6" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-set6
@@ -8,11 +7,10 @@ package:
 
 source:
   url: https://raphaels1.r-universe.dev/src/contrib/set6_{{ version }}.tar.gz
-  md5: 2310d4d6607401b2d2c229dc6974fd5a
+  sha256: e15fa580a3eb2f8284de84fb46f1ffbaf35e61826fbde791ae1165161ca9428e
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   rpaths:
     - lib/R/lib/
     - lib/
@@ -21,7 +19,9 @@ requirements:
   build:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
     - {{ compiler('c') }}          # [not win]
+    - {{ stdlib("c") }}            # [not win]
     - {{ compiler('m2w64_c') }}    # [win]
+    - {{ stdlib("m2w64_c") }}      # [win]
     - {{ compiler('cxx') }}        # [not win]
     - {{ compiler('m2w64_cxx') }}  # [win]
     - {{ posix }}filesystem        # [win]
@@ -37,7 +37,6 @@ requirements:
     - r-ooplah
   run:
     - r-base
-    - {{ native }}gcc-libs         # [win]
     - r-r6
     - r-rcpp
     - r-checkmate
