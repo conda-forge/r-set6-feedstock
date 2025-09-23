@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://raphaels1.r-universe.dev/src/contrib/set6_{{ version }}.tar.gz
-  sha256: 7d0685c964da3cb14e12312c035d3a3942a81dd86a6924f160f95786df656d6b
+  sha256: 5b52d6e4c8bfa86d36da54fae308089dc518422cb0b3cd16df499c34a2197d4d
 
 build:
-  number: 2
+  number: 3
   rpaths:
     - lib/R/lib/
     - lib/
